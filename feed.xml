@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-03-22T11:19:48+08:00</updated>
+  <updated>2024-05-07T11:43:41+08:00</updated>
   <author>
     <name>Mortyjin</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2024 Mortyjin </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,55 @@
 
   
   <entry>
+    <title>IP-guard Authentication Bypass</title>
+    <link href="/posts/ip-guard-auth-bypass/" rel="alternate" type="text/html" title="IP-guard Authentication Bypass" />
+    <published>2024-04-17T12:13:00+08:00</published>
+  
+    <updated>2024-04-17T12:13:00+08:00</updated>
+  
+    <id>/posts/ip-guard-auth-bypass/</id>
+    <content src="/posts/ip-guard-auth-bypass/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="vulnerability" />
+    
+    <category term="IP-guard" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Overview
+
+IP-guard is an enterprise information supervision system developed by a Chinese company. It is a simple, easy-to-use,
+and fully functional computer monitoring and control tool that prevents internal documents from being copied by
+restricting the use of mobile storage devices and applications. This facilitates enterprise control over the flow of
+information, effectively safeguards corp...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>CVE-2024-21650 XWiki RCE</title>
-    <link href="http://localhost:4000/posts/CVE-2024-21650/" rel="alternate" type="text/html" title="CVE-2024-21650 XWiki RCE" />
+    <link href="/posts/CVE-2024-21650/" rel="alternate" type="text/html" title="CVE-2024-21650 XWiki RCE" />
     <published>2024-01-10T11:33:00+08:00</published>
   
     <updated>2024-01-10T11:33:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/CVE-2024-21650/</id>
-    <content src="http://localhost:4000/posts/CVE-2024-21650/" />
+    <id>/posts/CVE-2024-21650/</id>
+    <content src="/posts/CVE-2024-21650/" />
     <author>
       <name>cotes</name>
     </author>
@@ -61,13 +102,13 @@ This vulnerability, identified as XWIKI-21173, is a critical remote code executi
   
   <entry>
     <title>HTB Catch Walkthrough</title>
-    <link href="http://localhost:4000/posts/htb-catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
+    <link href="/posts/htb-catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
     <published>2022-04-05T12:13:00+08:00</published>
   
     <updated>2022-04-05T12:13:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/htb-catch/</id>
-    <content src="http://localhost:4000/posts/htb-catch/" />
+    <id>/posts/htb-catch/</id>
+    <content src="/posts/htb-catch/" />
     <author>
       <name>cotes</name>
     </author>
@@ -119,13 +160,13 @@ Summary
   
   <entry>
     <title>HTB Writer Walkthrough</title>
-    <link href="http://localhost:4000/posts/HTB-Writer/" rel="alternate" type="text/html" title="HTB Writer Walkthrough" />
+    <link href="/posts/HTB-Writer/" rel="alternate" type="text/html" title="HTB Writer Walkthrough" />
     <published>2021-08-13T12:13:00+08:00</published>
   
     <updated>2021-08-13T12:13:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/HTB-Writer/</id>
-    <content src="http://localhost:4000/posts/HTB-Writer/" />
+    <id>/posts/HTB-Writer/</id>
+    <content src="/posts/HTB-Writer/" />
     <author>
       <name>cotes</name>
     </author>
@@ -176,13 +217,13 @@ Summary
   
   <entry>
     <title>Preparation before analysing Cobalt Strike.</title>
-    <link href="http://localhost:4000/posts/preparation_before_analysing_CobaltStrike/" rel="alternate" type="text/html" title="Preparation before analysing Cobalt Strike." />
+    <link href="/posts/preparation_before_analysing_CobaltStrike/" rel="alternate" type="text/html" title="Preparation before analysing Cobalt Strike." />
     <published>2021-08-12T12:13:00+08:00</published>
   
     <updated>2021-08-12T12:13:00+08:00</updated>
   
-    <id>http://localhost:4000/posts/preparation_before_analysing_CobaltStrike/</id>
-    <content src="http://localhost:4000/posts/preparation_before_analysing_CobaltStrike/" />
+    <id>/posts/preparation_before_analysing_CobaltStrike/</id>
+    <content src="/posts/preparation_before_analysing_CobaltStrike/" />
     <author>
       <name>cotes</name>
     </author>
@@ -210,60 +251,6 @@ Cobalt Strike is a modular attack framework that is popular with red team and pe
 Decompiling
 
 As we all know, CobaltStrike is a commercial software and there seems to be no way to get an officially ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>An analysis of CobaltStrike phishing site detection (chinese)</title>
-    <link href="http://localhost:4000/posts/Cobalt_Strike_phishing_site_detection/" rel="alternate" type="text/html" title="An analysis of CobaltStrike phishing site detection (chinese)" />
-    <published>2021-06-21T12:13:00+08:00</published>
-  
-    <updated>2021-06-21T12:13:00+08:00</updated>
-  
-    <id>http://localhost:4000/posts/Cobalt_Strike_phishing_site_detection/</id>
-    <content src="http://localhost:4000/posts/Cobalt_Strike_phishing_site_detection/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Hunter" />
-    
-    <category term="CobaltStrike" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Attention
-
-This article was written while I was in the 360 Quake Team. Copyright © qihoo 360.
-
-浅析 CobaltStrike Beacon Staging Server 扫描
-
-0x01 前言
-
-对网络空间测绘数据的分析和发掘，是Quake团队一直以来的核心目标。
-
-近期，我们留意到有国外安全研究人员在github上发布了一个Cobalt Strike Beacon的扫描工具，可以提取Beacon的配置信息。于是经过Quake团队小伙伴一致努力下，将此功能集成入Quake系统，经过一小段时间的扫描颇见成效。
-
-
-
-下面我们将详细介绍Beacon Staging Server扫描的原理。
-
-0x02 Beacon是什么
-
-从事渗透测试、红队攻防的小伙伴一定对这个概念并不陌生，我们这里直接使用...
     </summary>
   
 

