@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-05-07T11:43:41+08:00</updated>
+  <updated>2024-05-21T15:45:08+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -17,6 +17,47 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Zentao Authentication Bypass</title>
+    <link href="/posts/zentao-auth-bypass/" rel="alternate" type="text/html" title="Zentao Authentication Bypass" />
+    <published>2024-04-26T12:13:00+08:00</published>
+  
+    <updated>2024-04-26T12:13:00+08:00</updated>
+  
+    <id>/posts/zentao-auth-bypass/</id>
+    <content src="/posts/zentao-auth-bypass/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="vulnerability" />
+    
+    <category term="Zentao" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Overview
+
+ZenTao is a widely used open-source project management software that offers functionalities like project management,
+product management, test management, document management, bug management, task management, and team collaboration.
+Before version 18.12 of ZenTao, there was an authentication bypass vulnerability, which could be exploited by attackers
+to bypass authentication and access...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -209,48 +250,6 @@ Summary
   Reading files and logging into the system via SQL injection.
   Read source code to find command injection vulnerability and get web shell.
   Read web path to discover configuration...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Preparation before analysing Cobalt Strike.</title>
-    <link href="/posts/preparation_before_analysing_CobaltStrike/" rel="alternate" type="text/html" title="Preparation before analysing Cobalt Strike." />
-    <published>2021-08-12T12:13:00+08:00</published>
-  
-    <updated>2021-08-12T12:13:00+08:00</updated>
-  
-    <id>/posts/preparation_before_analysing_CobaltStrike/</id>
-    <content src="/posts/preparation_before_analysing_CobaltStrike/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="Hunter" />
-    
-    <category term="CobaltStrike" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Preface
-
-Cobalt Strike is a modular attack framework that is popular with red team and penetration testers due to its ease of use and scalability.And today we will discuss the preparations before analyzing Cobalt Strike. There are two main points: decompiling and packet capture
-
-Decompiling
-
-As we all know, CobaltStrike is a commercial software and there seems to be no way to get an officially ...
     </summary>
   
 
