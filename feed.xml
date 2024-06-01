@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-05-21T22:44:08+08:00</updated>
+  <updated>2024-06-01T18:53:31+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -143,13 +143,13 @@ This vulnerability, identified as XWIKI-21173, is a critical remote code executi
   
   <entry>
     <title>HTB Catch Walkthrough</title>
-    <link href="/posts/htb-catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
+    <link href="/posts/HTB-Catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
     <published>2022-04-05T12:13:00+08:00</published>
   
     <updated>2022-04-05T12:13:00+08:00</updated>
   
-    <id>/posts/htb-catch/</id>
-    <content src="/posts/htb-catch/" />
+    <id>/posts/HTB-Catch/</id>
+    <content src="/posts/HTB-Catch/" />
     <author>
       <name>cotes</name>
     </author>
