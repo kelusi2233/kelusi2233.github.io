@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-06-01T18:53:31+08:00</updated>
+  <updated>2024-06-02T12:10:05+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -12,7 +12,7 @@
   <link rel="self" type="application/atom+xml" href="/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 Mortyjin </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -24,7 +24,7 @@
     <link href="/posts/zentao-auth-bypass/" rel="alternate" type="text/html" title="Zentao Authentication Bypass" />
     <published>2024-04-26T12:13:00+08:00</published>
   
-    <updated>2024-04-26T12:13:00+08:00</updated>
+    <updated>2024-06-01T22:24:22+08:00</updated>
   
     <id>/posts/zentao-auth-bypass/</id>
     <content src="/posts/zentao-auth-bypass/" />
@@ -65,7 +65,7 @@ to bypass authentication and access...
     <link href="/posts/ip-guard-auth-bypass/" rel="alternate" type="text/html" title="IP-guard Authentication Bypass" />
     <published>2024-04-17T12:13:00+08:00</published>
   
-    <updated>2024-04-17T12:13:00+08:00</updated>
+    <updated>2024-06-01T22:24:22+08:00</updated>
   
     <id>/posts/ip-guard-auth-bypass/</id>
     <content src="/posts/ip-guard-auth-bypass/" />
@@ -106,7 +106,7 @@ information, effectively safeguards corp...
     <link href="/posts/CVE-2024-21650/" rel="alternate" type="text/html" title="CVE-2024-21650 XWiki RCE" />
     <published>2024-01-10T11:33:00+08:00</published>
   
-    <updated>2024-01-10T11:33:00+08:00</updated>
+    <updated>2024-06-01T22:24:22+08:00</updated>
   
     <id>/posts/CVE-2024-21650/</id>
     <content src="/posts/CVE-2024-21650/" />
@@ -146,7 +146,7 @@ This vulnerability, identified as XWIKI-21173, is a critical remote code executi
     <link href="/posts/HTB-Catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
     <published>2022-04-05T12:13:00+08:00</published>
   
-    <updated>2022-04-05T12:13:00+08:00</updated>
+    <updated>2024-06-02T12:08:41+08:00</updated>
   
     <id>/posts/HTB-Catch/</id>
     <content src="/posts/HTB-Catch/" />
@@ -186,13 +186,13 @@ Information
 https://app.hackthebox.com/machines/450
 
 Summary
-
+1234451
 
   Enumerate and discover services.
   Download the APK file and analyze it.
   Get key token through APK and get user credentials.
   Get the Shell by user credentials.
-  Further information gathering to discover another user cre...
+  Further information gathering to discover another u...
     </summary>
   
 
