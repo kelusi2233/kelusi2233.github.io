@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-06-02T12:10:05+08:00</updated>
+  <updated>2024-06-02T12:12:22+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -146,7 +146,7 @@ This vulnerability, identified as XWIKI-21173, is a critical remote code executi
     <link href="/posts/HTB-Catch/" rel="alternate" type="text/html" title="HTB Catch Walkthrough" />
     <published>2022-04-05T12:13:00+08:00</published>
   
-    <updated>2024-06-02T12:08:41+08:00</updated>
+    <updated>2024-06-02T12:12:02+08:00</updated>
   
     <id>/posts/HTB-Catch/</id>
     <content src="/posts/HTB-Catch/" />
@@ -186,13 +186,12 @@ Information
 https://app.hackthebox.com/machines/450
 
 Summary
-1234451
 
   Enumerate and discover services.
   Download the APK file and analyze it.
   Get key token through APK and get user credentials.
   Get the Shell by user credentials.
-  Further information gathering to discover another u...
+  Further information gathering to discover another user cred...
     </summary>
   
 
