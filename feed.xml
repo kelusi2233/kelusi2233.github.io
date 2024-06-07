@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-06-08T00:17:27+08:00</updated>
+  <updated>2024-06-08T00:22:49+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -24,7 +24,7 @@
     <link href="/posts/zentao-auth-bypass/" rel="alternate" type="text/html" title="Zentao Authentication Bypass" />
     <published>2024-04-26T12:13:00+08:00</published>
   
-    <updated>2024-06-08T00:16:06+08:00</updated>
+    <updated>2024-06-08T00:22:11+08:00</updated>
   
     <id>/posts/zentao-auth-bypass/</id>
     <content src="/posts/zentao-auth-bypass/" />
@@ -49,11 +49,10 @@
 
 
       Overview
-123456
 ZenTao is a widely used open-source project management software that offers functionalities like project management,
 product management, test management, document management, bug management, task management, and team collaboration.
 Before version 18.12 of ZenTao, there was an authentication bypass vulnerability, which could be exploited by attackers
-to bypass authentication and ...
+to bypass authentication and access ...
     </summary>
   
 
