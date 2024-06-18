@@ -4,7 +4,7 @@
   <id>/</id>
   <title>imjdl blog</title>
   <subtitle>Perpetual student, continual incremental improvement.</subtitle>
-  <updated>2024-06-13T19:27:34+08:00</updated>
+  <updated>2024-06-18T17:19:27+08:00</updated>
   <author>
     <name>Mortyjin</name>
     <uri>/</uri>
@@ -17,6 +17,47 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>ShowDoc Sql Injection and Remote Code Execution</title>
+    <link href="/posts/showdoc-sql-injection-and-rce/" rel="alternate" type="text/html" title="ShowDoc Sql Injection and Remote Code Execution" />
+    <published>2024-06-02T12:13:00+08:00</published>
+  
+    <updated>2024-06-18T17:18:59+08:00</updated>
+  
+    <id>/posts/showdoc-sql-injection-and-rce/</id>
+    <content src="/posts/showdoc-sql-injection-and-rce/" />
+    <author>
+      <name>cotes</name>
+    </author>
+
+  
+    
+    <category term="vulnerability" />
+    
+    <category term="ShowDoc" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Overview
+
+ShowDoc is a versatile online documentation tool tailored for IT teams, perfect for creating beautiful API documents,
+tech manuals, and more using markdown. Its features include automated document generation from code comments or via the
+RunApi client, multi-platform support, and robust team collaboration tools. Widely adopted by over 100,000 internet
+teams, including major corporatio...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -191,63 +232,6 @@ Summary
   Get key token through APK and get user credentials.
   Get the Shell by user credentials.
   Further information gathering to discover another user cred...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>HTB Writer Walkthrough</title>
-    <link href="/posts/HTB-Writer/" rel="alternate" type="text/html" title="HTB Writer Walkthrough" />
-    <published>2021-08-13T12:13:00+08:00</published>
-  
-    <updated>2021-08-13T12:13:00+08:00</updated>
-  
-    <id>/posts/HTB-Writer/</id>
-    <content src="/posts/HTB-Writer/" />
-    <author>
-      <name>cotes</name>
-    </author>
-
-  
-    
-    <category term="CTF" />
-    
-    <category term="HTB" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-Information
-
-
-  name: Writer
-  OS: Linux
-  Difficulty: Medium
-  Points: 30
-  Release: 2ND AUGUST, 2021
-  IP: 10.10.11.101
-
-
-https://app.hackthebox.eu/machines/Writer
-
-Summary
-
-
-  Enumerate to find the admin page.
-  Reading files and logging into the system via SQL injection.
-  Read source code to find command injection vulnerability and get web shell.
-  Read web path to discover configuration...
     </summary>
   
 
